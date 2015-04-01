@@ -1,8 +1,48 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #9A044F;
+  background-color: #9AEDE2
 }
-
+#bulle1
+{
+ border-radius: 50%;
+ width: 150px;
+ height: 150px;
+ background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/FL_fig04.jpg/200px-FL_fig04.jpg) no-repeat;
+ background-position:50% 50%;
+}
+#bulle2
+{
+ border-radius: 50%;
+ width: 412px;
+ height: 412px;
+ background: url(http://img.ng.pmdstatic.net/fit/http.3A.2F.2Fphoto.2Enationalgeographic.2Efr.2Fupload.2Fslideshow.2Fen-floride-la-surpopulation-menace-la-survie-des-lamantins-1573.2F1-ouverture-22266.2Ejpg/620x413/quality/80/les-lamantins-de-kings-bay-en-detresse.jpg) no-repeat;
+-moz-border-radius: 200px;
+-webkit-border-radius: 200px;
+ background-position:50% 50%;
+}
+#bulle3
+{
+ border-radius: 50%;
+ width: 412px;
+ height: 412px;
+ background: url(https://lh4.googleusercontent.com/-SJLKlX3kWsY/U6AZ8k8lRII/AAAAAAAAA8w/odmTEkf5_dE/w1024-h768/Bebe-lamantin_Mandilo%2B%25285%2529.JPG) no-repeat;
+-moz-border-radius: 200px;
+-webkit-border-radius: 200px;
+ background-position:50% 50%;
+ display: inline-block;
+}
+h1 {
+ font-size: 200%; 
+ color: #EA005E; 
+ }
+ p {
+ font-size: 200%;
+ }
+ 
+ 
 a {
   color: #00B7FF;
 }
+
