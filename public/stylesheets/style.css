@@ -2,7 +2,7 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #9A044F;
-  background-color: #9AEDE2
+  background-color: #AEE5E9;
 }
 #bulle1
 {
@@ -32,6 +32,10 @@ body {
 -webkit-border-radius: 200px;
  background-position:50% 50%;
  display: inline-block;
+ position: absolute;
+ left: 75%;
+ margin-left: -200px;
+ top: 50px;
 }
 h1 {
  font-size: 200%; 
@@ -46,3 +50,49 @@ a {
   color: #00B7FF;
 }
 
+#rectangle
+{
+ background-color: #CFFBFB;
+ width: 600px;
+ height: 350px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+ content: "";
+ position:  absolute;
+ top: 500px;
+ left: 1000px;
+ bottom: 200px;
+ right: 0px;
+ color: white;
+}
+ #texte {
+ padding: 0px 0px 500px 0px;
+ }
+ 
+ .tweet {
+	height: 100px;
+	width: 300px;
+	position:  absolute;
+	top: 125px;
+	left: 500px;
+	bottom: 800px;
+	right: 0px;
+}
+.button {
+	height: 50px;
+	width: 75px;
+	position:  absolute;
+	top: 180px;
+	left: 810px;
+	bottom: 0px;
+	right: 0px;
+}
+.affichage {
+	height: 50px;
+	width: 75px;
+	position:  absolute;
+	top: 250px;
+	left: 525px;
+	bottom: 400px;
+	right: 0px;
+}
