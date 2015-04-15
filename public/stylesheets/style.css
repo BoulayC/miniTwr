@@ -53,14 +53,14 @@ a {
 #rectangle
 {
  background-color: #CFFBFB;
- width: 600px;
- height: 350px;
+ width: 500px;
+ height: 200px;
  -moz-border-radius: 10px;
  border-radius: 10px;
  content: "";
  position:  absolute;
- top: 500px;
- left: 1000px;
+ top: 675px;
+ left: 1150px;
  bottom: 200px;
  right: 0px;
  color: white;
@@ -88,9 +88,12 @@ a {
 	right: 0px;
 }
 .affichage {
-	height: 50px;
-	width: 75px;
+	height: 250px;
+	width: 350px;
 	position:  absolute;
+	background:url('images/image_tweet.png') no-repeat;
+	background-position:0% 0%;
+	color: GREEN;
 	top: 250px;
 	left: 525px;
 	bottom: 400px;
