@@ -2,7 +2,7 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #9A044F;
-  background-image: url(http://www.hdwallpapersnew.net/wp-content/uploads/2015/01/sea-sky-desktop-new-wallpapers-for-backgroud-wide-free.jpg) no-repeat;
+  background: url('/images/w3.jpg') no-repeat;
 }
 #bulle1
 {
@@ -87,15 +87,21 @@ a {
 	bottom: 0px;
 	right: 0px;
 }
-.affichage {
+ul.affichage {
 	height: 250px;
-	width: 350px;
+	width: 300px;
 	position:  absolute;
-	background:url('images/image_tweet.png') no-repeat;
-	background-position:0% 0%;
 	color: GREEN;
 	top: 250px;
-	left: 525px;
+	left: 500px;
 	bottom: 400px;
 	right: 0px;
+	line-height: 50px;
+	text-align: center;
+}
+
+ul.affichage li {
+	height: 100px;
+	background:url('images/image_tweet.png') no-repeat;
+	background-position:-30% 125%;
 }
