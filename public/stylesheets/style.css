@@ -2,7 +2,7 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #9A044F;
-  background: url('image3.jpg') no-repeat;
+  background: url('images/image3.jpg') no-repeat;
 }
 #bulle1
 {
@@ -52,7 +52,8 @@ a {
 
 #rectangle
 {
- background-color: #CFFBFB;
+ background-color: BLACK;
+ opacity: 0.5;
  width: 500px;
  height: 200px;
  -moz-border-radius: 10px;
@@ -91,7 +92,7 @@ ul.affichage {
 	height: 250px;
 	width: 300px;
 	position:  absolute;
-	color: GREEN;
+	color: white;
 	top: 250px;
 	left: 500px;
 	bottom: 400px;
