@@ -18,8 +18,6 @@ body {
  width: 412px;
  height: 412px;
  background: url(http://img.ng.pmdstatic.net/fit/http.3A.2F.2Fphoto.2Enationalgeographic.2Efr.2Fupload.2Fslideshow.2Fen-floride-la-surpopulation-menace-la-survie-des-lamantins-1573.2F1-ouverture-22266.2Ejpg/620x413/quality/80/les-lamantins-de-kings-bay-en-detresse.jpg) no-repeat;
--moz-border-radius: 200px;
--webkit-border-radius: 200px;
  background-position:50% 50%;
 }
 #bulle3
@@ -28,8 +26,6 @@ body {
  width: 412px;
  height: 412px;
  background: url(https://lh4.googleusercontent.com/-SJLKlX3kWsY/U6AZ8k8lRII/AAAAAAAAA8w/odmTEkf5_dE/w1024-h768/Bebe-lamantin_Mandilo%2B%25285%2529.JPG) no-repeat;
--moz-border-radius: 200px;
--webkit-border-radius: 200px;
  background-position:50% 50%;
  display: inline-block;
  position: absolute;
@@ -45,10 +41,6 @@ h1 {
  font-size: 200%;
  }
  
- 
-a {
-  color: #00B7FF;
-}
 
 #rectangle
 {
@@ -56,7 +48,6 @@ a {
  opacity: 0.5;
  width: 500px;
  height: 200px;
- -moz-border-radius: 10px;
  border-radius: 10px;
  position:  absolute;
  top: 675px;
