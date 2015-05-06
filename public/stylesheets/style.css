@@ -58,7 +58,6 @@ a {
  height: 200px;
  -moz-border-radius: 10px;
  border-radius: 10px;
- content: "";
  position:  absolute;
  top: 675px;
  left: 1150px;
@@ -75,7 +74,6 @@ a {
  height: 25px;
  -moz-border-radius: 10px;
  border-radius: 10px;
- content: "";
  position:  absolute;
  top: 10px;
  left: 50px;
@@ -123,3 +121,15 @@ ul.affichage li {
 	background:url('images/image_tweet.png') no-repeat;
 	background-position:-30% 125%;
 }
+
+#planche {
+ width: 500px;
+ height: 1000px;
+ opacity: 0.85;
+ position:  absolute;
+ top: 0px;
+ left: 585px;
+ bottom: 0px;
+ right: 0px;
+ background:url('images/planche.png') no-repeat;
+ }
