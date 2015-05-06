@@ -66,16 +66,16 @@ a {
  color: white;
 }
 
-#login
-{
- background-color: BLUE;
- opacity: 1;
- width: 1550px;
- height: 25px;
- -moz-border-radius: 10px;
- border-radius: 10px;
+#login {
+ padding: 0px 0px 500px 0px;
+ }
+ 
+
+.buttonLogin{
  background: url('images/Rien.png') no-repeat;
  position:  absolute;
+ width: 50px;
+ height: 50px;
  top: 10px;
  left: 50px;
  bottom: 20px;
