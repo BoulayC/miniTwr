@@ -74,6 +74,7 @@ a {
  height: 25px;
  -moz-border-radius: 10px;
  border-radius: 10px;
+ background: url('images/Rien.png') no-repeat;
  position:  absolute;
  top: 10px;
  left: 50px;
@@ -81,6 +82,7 @@ a {
  right: 0px;
  color: white;
 }
+
  #texte {
  padding: 0px 0px 500px 0px;
  }
@@ -95,13 +97,15 @@ a {
 	right: 0px;
 }
 .button {
-	height: 50px;
-	width: 75px;
+	background: url('images/LaPastequeSwaggy.png') no-repeat;
+	height: 110px;
+	width: 110px;
 	position:  absolute;
-	top: 180px;
+	top: 125px;
 	left: 810px;
 	bottom: 0px;
 	right: 0px;
+	color: white;
 }
 ul.affichage {
 	height: 250px;
