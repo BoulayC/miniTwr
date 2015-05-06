@@ -2,18 +2,7 @@ extends layout
 
 block content
 	h1 Welcome to MiniTwr
-	//
-		form
-			| User:
-				br
-			input(type='text', name='User')
-			br
-			| Password:
-			br
-			input(type='text', name='Password')
-			br 
-			br
-				input(type='submit', value='Log in')
+
 	#bulle1
 	#bulle2
 	#bulle3
@@ -30,3 +19,6 @@ block content
 		ul.affichage
 			- each tweet in tweets
 				li= tweet
+	#login
+		form(action='/login')
+			input(type='submit', value='login')

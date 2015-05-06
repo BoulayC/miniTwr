@@ -66,6 +66,23 @@ a {
  right: 0px;
  color: white;
 }
+
+#login
+{
+ background-color: BLUE;
+ opacity: 1;
+ width: 1550px;
+ height: 25px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+ content: "";
+ position:  absolute;
+ top: 10px;
+ left: 50px;
+ bottom: 20px;
+ right: 0px;
+ color: white;
+}
  #texte {
  padding: 0px 0px 500px 0px;
  }

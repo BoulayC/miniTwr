@@ -13,4 +13,10 @@ router.post('/', function(req, res, next) {
  res.redirect('/')
  });
 
+router.get('/login', function(req, res, next) {
+res.render('login', { title: 'Express', tweets: tweets });
+});
+
+
 module.exports = router;
+
